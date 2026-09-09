@@ -1,1 +1,0 @@
-# Smart-Plant-watering-system-IoT-
