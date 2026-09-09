@@ -234,9 +234,9 @@ The prototype was tested against:
 
 Project developed for **CSE 342: IoT Based Project Development**, School of Science, Engineering and Technology, **East Delta University**.
 
-- Md. Abrar Hossain (232006512)
-- Hrishika Dhar Tisha (232008312)
-- Saiada Tun Nesa (232008612)
+- Md. Abrar Hossain 
+- Hrishika Dhar Tisha
+- Saiada Tun Nesa
 
 ## 📚 References
 
