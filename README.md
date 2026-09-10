@@ -39,9 +39,9 @@ Manual plant watering is inconsistent — too much water, too little, or a misse
 
 The goal was a low-cost, energy-efficient prototype that proves out automated, data-driven irrigation without needing multi-zone hardware, weather APIs, or heavy compute — just a reliable sense → decide → act loop.
 
-## 🎬 Demo
+## Demo
 
-📹 **[Watch the hardware demo video](media/demo/iot%20final%20show%20hardware.mp4)**
+ **[Watch the hardware demo video](media/demo/iot%20final%20show%20hardware.mp4)**
 
 *(GitHub will play the video directly when you open the link. If it's too large to preview inline, download it from the same link.)*
 
@@ -106,11 +106,11 @@ The goal was a low-cost, energy-efficient prototype that proves out automated, d
 
 **Power:** All components run off a 5V DC supply via USB.
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 <img src="docs/Circuit%20diagram.png" width="700">
 
-## 💻 Software & Cloud
+## Software & Cloud
 
 | Tool | Purpose |
 |---|---|
@@ -119,11 +119,11 @@ The goal was a low-cost, energy-efficient prototype that proves out automated, d
 | `DHT.h` | Temperature/humidity sensor driver |
 | `BlynkSimpleEsp32.h` | Blynk cloud communication over Wi-Fi |
 
-## 📊 Blynk Dashboard
+## Blynk Dashboard
 
 <img src="docs_dashboard/Dashboard.png" width="700">
 
-> ℹ️ This is a **recreated mockup** of the original dashboard (same layout, widgets, and live values as the working project) — the original live screenshots weren't saved during development. See the [demo video](#-demo) for the dashboard running on real hardware.
+>  This is a **recreated mockup** of the original dashboard (same layout, widgets, and live values as the working project) — the original live screenshots weren't saved during development. See the [demo video](#-demo) for the dashboard running on real hardware.
 
 The dashboard exposes:
 - **Pump Switch** — manual pump control
@@ -131,7 +131,7 @@ The dashboard exposes:
 - **Temperature** / **Humidity** — live DHT11 readings
 - **Moisture** — live soil moisture gauge (0–100%)
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Read** — the ESP32 polls the soil moisture sensor and DHT11 every 3 seconds.
 2. **Decide** — in Auto mode, the pump turns **ON** when moisture drops below the low threshold *or* temperature exceeds the safety threshold, and turns **OFF** once moisture recovers above the high threshold.
@@ -147,7 +147,7 @@ Manual Switch ON   → Pump ON  (overrides auto logic)
 
 *(These are the thresholds implemented in firmware. Note: the written project report describes indicative values of 30%/70% for the same logic — the firmware values above are what the hardware actually runs on.)*
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Smart plant watering system/
@@ -178,7 +178,7 @@ Smart plant watering system/
             └── Soil moisture sensor.png
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Wire the hardware** according to the [circuit diagram](#-circuit-diagram):
    - Soil moisture sensor → analog pin `34`
@@ -198,7 +198,7 @@ Smart plant watering system/
 5. **Flash the ESP32** and open Serial Monitor at `115200` baud to confirm sensor readings and Blynk connection.
 6. **Build the dashboard** in Blynk with 2 switches and 3 value/gauge widgets bound to the datastreams above.
 
-## 📷 Final Setup
+## Final Setup
 
 <p float="left">
   <img src="media/images/Final_Setup1.jpeg" width="200">
@@ -207,7 +207,7 @@ Smart plant watering system/
   <img src="media/images/Final_Setup4.jpeg" width="200">
 </p>
 
-## ✅ Evaluation Criteria
+## Evaluation Criteria
 
 The prototype was tested against:
 - **Sensor Accuracy** — comparing sensor readings against manual measurements
@@ -216,21 +216,21 @@ The prototype was tested against:
 - **User Control Efficiency** — manual override always takes priority over automation
 - **Component Stability** — sustained operation over time
 
-## 🏆 Achievements
+## Achievements
 
 - Fully working sense → decide → act automation loop with no manual intervention required
 - Real-time two-way sync between hardware and the Blynk cloud dashboard
 - Manual override coexists cleanly with automatic control
 - Delivered as a low-cost, low-power prototype with no specialized equipment
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Switch to a **capacitive** soil moisture sensor for better long-term accuracy (resistive sensors corrode over time)
 - Add a **light sensor** for fuller environmental awareness
 - Introduce **ML-based adaptive watering** tuned to plant species and conditions
 - Add **solar power** for outdoor, off-grid deployment
 
-## 👥 Authors
+## Authors
 
 Project developed for **CSE 342: IoT Based Project Development**, School of Science, Engineering and Technology, **East Delta University**.
 
@@ -238,10 +238,10 @@ Project developed for **CSE 342: IoT Based Project Development**, School of Scie
 - Hrishika Dhar Tisha
 - Saiada Tun Nesa
 
-## 📚 References
+## References
 
 - SriTu Hobby, *"How to Make a Plant Watering System with ESP32 Board and Blynk App"* — [srituhobby.com](https://srituhobby.com/how-to-make-a-plant-watering-system-with-esp32-board-and-blynk-app/)
 
-## 📄 License
+## License
 
 This project is open-sourced under the [MIT License](LICENSE).
