@@ -1,4 +1,4 @@
-# 🌱 Smart Plant Watering System
+# Smart Plant Watering System
 
 **Automated & Remote-Controlled Irrigation using ESP32 and Blynk IoT**
 
@@ -11,7 +11,7 @@ A self-regulating smart irrigation prototype that reads live soil moisture, temp
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Demo](#-demo)
@@ -33,7 +33,7 @@ A self-regulating smart irrigation prototype that reads live soil moisture, temp
 
 ---
 
-## 🔎 Overview
+## Overview
 
 Manual plant watering is inconsistent — too much water, too little, or a missed day entirely when nobody's home. This project replaces the guesswork with a closed-loop IoT system: an **ESP32** microcontroller reads a **soil moisture sensor** and a **DHT11 temperature/humidity sensor**, then automatically drives a **relay-controlled mini water pump** to keep the soil in a healthy moisture range — while streaming live readings to the **Blynk IoT Cloud** for remote monitoring and manual control from a phone or browser.
 
@@ -45,16 +45,16 @@ The goal was a low-cost, energy-efficient prototype that proves out automated, d
 
 *(GitHub will play the video directly when you open the link. If it's too large to preview inline, download it from the same link.)*
 
-## ✨ Features
+## Features
 
-- 🌡️ Real-time monitoring of **soil moisture, temperature, and humidity**
-- 💧 **Automatic pump control** based on configurable moisture/temperature thresholds
-- 📱 **Manual override** — turn the pump on/off anytime from the Blynk app
-- 🔁 **Auto/Manual mode toggle** synced live with the cloud
-- ☁️ Wireless data logging and control via **Blynk IoT**
-- 🛡️ Safe startup state (pump forced OFF on boot/reconnect)
+-  Real-time monitoring of **soil moisture, temperature, and humidity**
+-  **Automatic pump control** based on configurable moisture/temperature thresholds
+-  **Manual override** — turn the pump on/off anytime from the Blynk app
+-  **Auto/Manual mode toggle** synced live with the cloud
+-  Wireless data logging and control via **Blynk IoT**
+-  Safe startup state (pump forced OFF on boot/reconnect)
 
-## 🔧 Hardware Components
+## Hardware Components
 
 <table>
 <tr>
