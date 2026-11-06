@@ -62,55 +62,46 @@ The goal was a low-cost, energy-efficient prototype that proves out automated, d
 <th>Image</th>
 <th>Purpose</th>
 </tr>
-
 <tr>
 <td>ESP32 DevKit V1</td>
-<td><img src="media/images/components/Esp32%20board%20%28model-%20devkit%20v1%29.png" width="160"></td>
+<td><img src="media/images/Components/Esp32%20board%20%28model-%20devkit%20v1%29.png" width="160"></td>
 <td>Main microcontroller — Wi-Fi connectivity and sensor/pump control</td>
 </tr>
-
 <tr>
 <td>Soil Moisture Sensor</td>
-<td><img src="media/images/components/Soil%20moisture%20sensor.png" width="160"></td>
+<td><img src="media/images/Components/Soil%20moisture%20sensor.png" width="160"></td>
 <td>Detects soil water level (analog reading)</td>
 </tr>
-
 <tr>
 <td>DHT11 Sensor</td>
-<td><img src="media/images/components/DHT11%20Sensor.png" width="160"></td>
+<td><img src="media/images/Components/DHT11%20Sensor.png" width="160"></td>
 <td>Measures ambient temperature and humidity</td>
 </tr>
-
 <tr>
 <td>Relay Module</td>
-<td><img src="media/images/components/Relay%20module-.png" width="160"></td>
+<td><img src="media/images/Components/Relay%20module-.png" width="160"></td>
 <td>Switches the water pump ON/OFF (active-LOW)</td>
 </tr>
-
 <tr>
 <td>Mini Water Pump</td>
-<td><img src="media/images/components/Mini%20Water%20pump%20and%20pipe.png" width="160"></td>
+<td><img src="media/images/Components/Mini%20Water%20pump%20and%20pipe.png" width="160"></td>
 <td>Delivers water to the plant</td>
 </tr>
-
 <tr>
 <td>Breadboard</td>
-<td><img src="media/images/components/Breadboard.png" width="160"></td>
+<td><img src="media/images/Components/Breadboard.png" width="160"></td>
 <td>Prototyping and sensor wiring</td>
 </tr>
-
 <tr>
 <td>Jumper Wires</td>
-<td><img src="media/images/components/Jumper%20wires.png" width="160"></td>
+<td><img src="media/images/Components/Jumper%20wires.png" width="160"></td>
 <td>Connecting components on the breadboard</td>
 </tr>
-
 <tr>
 <td>Connecting Wires</td>
-<td><img src="media/images/components/Connecting%20wires.png" width="160"></td>
+<td><img src="media/images/Components/Connecting%20wires.png" width="160"></td>
 <td>Power and signal connections</td>
 </tr>
-
 </table>
 **Power:** All components run off a 5V DC supply via USB.
 
